@@ -11,7 +11,7 @@ sudo apt install build-essential gfortran -y
 sudo mkdir ~/mpich3
 cd ~/mpich3
 
-sudo wget http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz
+sudo wget -nc http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz
 
 sudo tar xfz mpich-3.2.tar.gz
 

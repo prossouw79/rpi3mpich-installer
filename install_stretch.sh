@@ -8,8 +8,8 @@ sudo apt-get update
 sudo apt dist-upgrade -y
 sudo apt install build-essential gfortran -y
 
-sudo mkdir ~/mpich3
-cd ~/mpich3
+sudo mkdir /home/pi/mpich3
+cd /home/pi/mpich3
 
 sudo wget -nc http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz
 

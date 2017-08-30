@@ -31,10 +31,12 @@ if [ -f $FILE ]; then
 
     cd ..
     echo "PATH=$PATH:/home/rpimpi/mpi-install/bin" >> .bashrc
+
+    sudo reboot
 else
    echo "$FILE not downloaded. Installation aborted."
 fi
-sudo reboot
+
 
 # Test that MPI works
 #mpiexec -n 1 hostname

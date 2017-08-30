@@ -19,7 +19,8 @@ sudo mkdir /home/rpimpi/
 sudo mkdir /home/rpimpi/mpi-install
 mkdir /home/pi/mpi-build
 
-sudo /home/pi/mpich3/mpich-3.2/configure -prefix=/home/rpimpi/mpi-install
+cd /home/pi/mpich3/mpich-3.2/
+sudo ./configure -prefix=/home/rpimpi/mpi-install
 sudo make
 sudo make install
 

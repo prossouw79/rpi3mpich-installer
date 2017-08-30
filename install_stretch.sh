@@ -21,7 +21,7 @@ mkdir /home/pi/mpi-build
 
 cd /home/pi/mpich3/mpich-3.2/
 sudo ./configure -prefix=/home/rpimpi/mpi-install
-sudo make
+sudo make -j4
 sudo make install
 
 cd ..
